@@ -1,13 +1,13 @@
 import React from "react";
-import "./App.css";
+// import "./App.css";
 import Form from "./components/Form/Form";
-
+import Conteudo from "./components/Conteudo/Conteudo";
 function App() {
   return (
-    <div className="App">
+    <Conteudo>
       <Form />
       Learn React
-    </div>
+    </Conteudo>
   );
 }
 
