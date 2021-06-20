@@ -1,13 +1,13 @@
 import React from "react";
-// import "./App.css";
-import Form from "./components/Form/Form";
-import Conteudo from "./components/Conteudo/Conteudo";
+import Cadastro from "./components/Cadastro/Cadastro";
+
 function App() {
   return (
-    <Conteudo>
-      <Form />
-      Learn React
-    </Conteudo>
+    <div class="col-md-8 offset-md-2">
+      <div className="row">
+        <Cadastro />
+      </div>
+    </div>
   );
 }
 
