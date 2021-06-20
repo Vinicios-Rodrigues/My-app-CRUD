@@ -4,7 +4,7 @@ import FireDb from "../../database/firebase";
 import Conteudo from "../Conteudo/Conteudo";
 import Form from "../Form/Form";
 
-const Cadastro = (props) => {
+const Cadastro = () => {
   let [People, setPeople] = useState({});
   let [idAtual, setIdAtual] = useState("");
 
@@ -49,6 +49,7 @@ const Cadastro = (props) => {
       });
     }
   };
+
   return (
     <>
       <Header />
